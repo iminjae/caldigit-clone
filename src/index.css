@@ -13,3 +13,48 @@
   .hover-underline-animation:hover::after {
     @apply scale-x-100;
   }
+
+
+/* //////dropdown/////// */
+  
+  .dropbtn {
+    border: none;
+    font-size: 13px;
+    color: black;
+  }
+  
+  .drobdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background: white;
+    min-width: 160px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    border: none;
+  }
+  
+  .dropdown-content a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+  }
+  
+  .dropdown-content a:hover {
+    background: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background: white;
+  }
+  

@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
 
             <div className="relative h-[529px]">
-                <div className="absolute text-center  w-[419px] h-[262px] ml-[250px] mt-[150px]">
+                <div className="absolute text-center  w-[419px] h-[262px] ml-[390px] mt-[140px]">
                     <span className="text-white text-[22px] font-[300]">Thunderbolt Technology</span>
                     <h3 className="text-white text-[46px] font-[300]">썬더볼트로 가능한</h3>
                     <p className="text-white text-[48px] font-[800]">초고속 속도와 안전성</p>
@@ -42,15 +42,12 @@ const Banner = () => {
                     src="https://caldigit.co.kr/AURA/mainpage/main3.JPG"
                 />
             </div>
-            <div className="h-[980] text-center">
-                <h2 className=" text-[38px] font-[700] ">Instagram</h2>
-                <p className=" text-[18px] text-gray-600">칼디짓으로 완성된 데스크셋업을 만나보세요</p>   
+            <div className="relative h-[529px]">
+                <div className="text-center mt-[265px]">
+                    <h2 className=" text-[38px] font-[700] ">Instagram</h2>
+                    <p className=" text-[18px] text-gray-600 mt-[20px]">칼디짓으로 완성된 데스크셋업을 만나보세요</p>   
+                </div>
             </div>
-           
-
-
-
-
            </div>;
   };
   
